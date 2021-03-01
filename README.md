@@ -2,9 +2,6 @@ This kvantum theme is created for dolphin. It is based on KvArc, patched with tr
 
 ![](screenshot.png)
 
-<img src="https://github.com/rbn42/KvArcDolphin/blob/main/screenshot.png?raw=true" width="100" height="100" >
-<img src="https://github.com/rbn42/KvArcDolphin/blob/main/screenshot.png?raw=true" width="882" height="660" >
-
 # INSTALLATION
 
 ```sh
