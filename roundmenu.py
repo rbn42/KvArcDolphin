@@ -11,7 +11,7 @@ dst,opacity=sys.argv[1:]
 
 
 s1=open('./KvRoughGlassRoundMenu.svg').read()
-s2=open('../%s/%s.svg'%(dst,dst)).read()
+s2=open('%s.svg'%(dst,)).read()
 #除了数字以外的id
 ids1=re.findall('id=("[a-z\-A-Z]+?")',s1)
 ids2=re.findall('id=("[a-z\-A-Z]+?")',s2)
@@ -36,10 +36,10 @@ s2=s2.split('\n')
 #插入s1
 s2=s2[:1]+[s1]+s2[1:]
 s2='\n'.join(s2)
-open('../%s/%s.svg'%(dst,dst),'w').write(s2)
+open('%s.svg'%(dst,),'w').write(s2)
 
 import configparser
-file_path='../%s/%s.kvconfig'%(dst,dst)
+file_path='%s.kvconfig'%(dst,)
 config = configparser.ConfigParser()
 config.read(file_path)
 

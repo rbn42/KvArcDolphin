@@ -1,7 +1,0 @@
-```bash
-cd ~/.config/Kvantum
-git clone https://github.com/rbn42/KvArcDolphin
-cd KvArcDolphin
-bash ./generate.sh
-echo KvArcDolphin=dolphin >> ../kvantum.kvconfig
-```
