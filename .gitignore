@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+KvArcDolphin.kvconfig
+KvArcDolphin.svg

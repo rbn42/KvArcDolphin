@@ -1,0 +1,44 @@
+
+  <!--主窗口,在调节blur 亮度后,可以降低opacity-->
+  <rect id="window-normal" width="40" x="759" y="488.02875" height="40" style="opacity:0.5;fill:#ffffff;fill-opacity:1;stroke:none"/>
+
+  <!--lineedit 地址栏 搜索栏 -->
+  <path style="fill:white;opacity:0.1;stroke:none" id="lineedit-normal" d="m 321.5,76.5 0,32 32,0 0,-32 -32,0 z"/>
+  <path style="fill:white;opacity:0.3;stroke:none" id="lineedit-focused" d="m 321.5,76.5 0,32 32,0 0,-32 -32,0 z"/>
+  <g style="opacity:0.0;stroke:none">
+    <g id="lineedit-normal-left"/>
+    <g id="lineedit-normal-topleft"/>
+    <g id="lineedit-normal-top"/>
+    <g id="lineedit-normal-topright"/>
+    <g id="lineedit-normal-right"/>
+    <g id="lineedit-normal-bottomleft"/>
+    <g id="lineedit-normal-bottom"/>
+    <g id="lineedit-normal-bottomright"/>
+    <g id="lineedit-focused-top"/>
+    <g id="lineedit-focused-topleft"/>
+    <g id="lineedit-focused-topright"/>
+    <g id="lineedit-focused-left"/>
+    <g id="lineedit-focused-right"/>
+    <g id="lineedit-focused-bottom"/>
+    <g id="lineedit-focused-bottomleft"/>
+    <g id="lineedit-focused-bottomright"/>
+  </g>
+  <!-- 不透明的toolbar,需要和对应的decro 主题一起用 -->
+  <!-- 注意这里定义了toolbar的颜色，如果breeze升级，需要跟随breeze改变-->
+  <rect id="rect-normal" width="1.0" x="0" y="0" height="1.0" style="opacity:1.0;fill:#F5F6F7;fill-opacity:1;stroke:none"/>
+  <!--toolbar阴影-->
+    <linearGradient id="linearGradient2643">
+      <stop id="stop2639" offset="0" style="stop-opacity:.353" />
+      <stop id="stop2655" offset=".45" style="stop-opacity:.137" />
+      <stop id="stop2641" offset="1" style="stop-opacity:0" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5971" x1="53" x2="53" y1="53" y2="59"
+       gradientTransform="matrix(0.15625,0,0,0.83333333,296.71875,572.83321)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient2643" />
+  <path
+     id="rect-normal-bottom"
+     d="m 305,621.99988 5,0 0,-5 -5,0 z"
+     style="color:#000000;line-height:normal;font-family:Sans;text-indent:0;text-align:start;text-transform:none;fill:url(#linearGradient5971);stroke:none;stroke-width:0.55500001" />
+</svg>
