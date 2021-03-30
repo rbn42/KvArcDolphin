@@ -1,4 +1,4 @@
-This kvantum theme is created for dolphin. It is based on KvArc, patched with transparent background, the shadow of Lenny's toolbar and KvRoughGlass's rounded corner.
+This kvantum theme is created for dolphin. It is based on KvArc, patched with transparent background, the shadow of Lenny's toolbar and rounded corners of KvRoughGlass's menu.
 
 ![](screenshot.png)
 
